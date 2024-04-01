@@ -1,7 +1,7 @@
 +++
 title = 'Hello World'
 date = 2024-03-31T15:04:27-07:00
-draft = true
+draft = false
 test = 'a'
 +++
 hello world
