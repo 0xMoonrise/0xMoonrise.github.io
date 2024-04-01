@@ -1,8 +1,15 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+    {{ $summary := index (split .Content "</p>") 0 }}
+    {{ $summary | plainify }}
+    <b class='tags'>
+    {{ range $i, $e := .Params.tags -}}
+        {{- if $i -}}, {{ end -}}
+            <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
+        {{- end -}}
+    </b>
+
   {{ end }}
 {{ end }}
