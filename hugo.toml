@@ -30,7 +30,6 @@ weight = 30
     hl_Lines = ''
     lineAnchors = ''
     lineNoStart = 1
-    lineNos = false
     lineNumbersInTable = false
     noClasses = false
     noHl = true

