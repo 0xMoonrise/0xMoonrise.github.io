@@ -68,8 +68,8 @@ code {
 .highlight pre {
   background: black !important;
   font-size:1em;
+  word-break: break-word;
   white-space: pre-wrap;
-  word-wrap: break-word;
   margin: 1%;
   padding: 1%;
 }
