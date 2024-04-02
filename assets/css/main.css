@@ -28,6 +28,7 @@ a {
 
 ul {
   list-style-type: "* ";
+  padding: 0;
 }
 
 code {
@@ -76,7 +77,6 @@ code {
   margin: 1%;
   padding: 1%;
 }
-
 
 
 
