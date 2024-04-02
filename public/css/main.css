@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  line-height: 0.9em;
+  line-height: 1.5em;
 }
 
 header {
@@ -76,6 +76,7 @@ code {
   white-space: pre-wrap;
   margin: 1%;
   padding: 1%;
+  line-height: 1;
 }
 
 
