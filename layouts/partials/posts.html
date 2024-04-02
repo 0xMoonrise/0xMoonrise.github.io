@@ -1,0 +1,10 @@
+<p>
+    {{ $summary := index (split .Content "</p>") 0 }}
+    {{ $summary | plainify }}
+    <div class='tags'>
+        {{ range $i, $e := .Params.tags -}}
+        {{- if $i -}}, {{ end -}}
+            <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
+        {{- end -}}
+    </div>
+</p>

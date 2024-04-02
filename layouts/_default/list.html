@@ -2,14 +2,6 @@
   <h1>{{ .Title }}</h1>
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ $summary := index (split .Content "</p>") 0 }}
-    {{ $summary | plainify }}
-    <b class='tags'>
-    {{ range $i, $e := .Params.tags -}}
-        {{- if $i -}}, {{ end -}}
-            <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
-        {{- end -}}
-    </b>
-
+    {{ partial "posts.html" . }}
   {{ end }}
 {{ end }}

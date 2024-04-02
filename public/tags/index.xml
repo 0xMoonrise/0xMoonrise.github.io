@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Captain Jack Moonrise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Mar 2024 15:04:27 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:12:30 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atopic</title>
+      <link>http://localhost:1313/tags/atopic/</link>
+      <pubDate>Tue, 02 Apr 2024 11:12:30 +0000</pubDate>
+      <guid>http://localhost:1313/tags/atopic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atopic2</title>
+      <link>http://localhost:1313/tags/atopic2/</link>
+      <pubDate>Tue, 02 Apr 2024 11:12:30 +0000</pubDate>
+      <guid>http://localhost:1313/tags/atopic2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atopic3</title>
+      <link>http://localhost:1313/tags/atopic3/</link>
+      <pubDate>Tue, 02 Apr 2024 11:12:30 +0000</pubDate>
+      <guid>http://localhost:1313/tags/atopic3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Btopic</title>
+      <link>http://localhost:1313/tags/btopic/</link>
+      <pubDate>Tue, 02 Apr 2024 11:12:30 +0000</pubDate>
+      <guid>http://localhost:1313/tags/btopic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ctopic</title>
+      <link>http://localhost:1313/tags/ctopic/</link>
+      <pubDate>Tue, 02 Apr 2024 11:12:30 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ctopic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lfi</title>
+      <link>http://localhost:1313/tags/lfi/</link>
+      <pubDate>Sun, 31 Mar 2024 15:04:27 -0700</pubDate>
+      <guid>http://localhost:1313/tags/lfi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rce</title>
+      <link>http://localhost:1313/tags/rce/</link>
+      <pubDate>Sun, 31 Mar 2024 15:04:27 -0700</pubDate>
+      <guid>http://localhost:1313/tags/rce/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Xss</title>
       <link>http://localhost:1313/tags/xss/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Home on Captain Jack Moonrise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Mar 2024 15:04:27 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 11:12:30 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proof of Concept</title>
+      <link>http://localhost:1313/posts/proof-of-concept/</link>
+      <pubDate>Tue, 02 Apr 2024 11:12:30 +0000</pubDate>
+      <guid>http://localhost:1313/posts/proof-of-concept/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius dapibus diam in aliquet. Fusce vel egestas leo. Ut sodales dignissim lectus, ac suscipit justo eleifend sit amet. Nullam dapibus imperdiet ante. Fusce mollis aliquam sem, consequat sollicitudin tellus suscipit at. Quisque quis sem mattis, ultricies dolor sit amet, vulputate lorem. Sed vitae cursus nisl. Vestibulum pellentesque cursus vulputate. Nam id facilisis neque. Aenean placerat arcu purus, ac ullamcorper velit facilisis in.</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>

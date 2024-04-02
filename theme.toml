@@ -1,6 +1,4 @@
 name = 'mytheme'
-license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
 description = 'Theme description'
 
 # The home page of the theme, where the source can be found

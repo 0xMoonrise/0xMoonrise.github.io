@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Captain Jack Moonrise</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Captain Jack Moonrise</description>
+    <title>Atopic2 on Captain Jack Moonrise</title>
+    <link>http://localhost:1313/tags/atopic2/</link>
+    <description>Recent content in Atopic2 on Captain Jack Moonrise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Apr 2024 11:12:30 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/atopic2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proof of Concept</title>
       <link>http://localhost:1313/posts/proof-of-concept/</link>
       <pubDate>Tue, 02 Apr 2024 11:12:30 +0000</pubDate>
       <guid>http://localhost:1313/posts/proof-of-concept/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius dapibus diam in aliquet. Fusce vel egestas leo. Ut sodales dignissim lectus, ac suscipit justo eleifend sit amet. Nullam dapibus imperdiet ante. Fusce mollis aliquam sem, consequat sollicitudin tellus suscipit at. Quisque quis sem mattis, ultricies dolor sit amet, vulputate lorem. Sed vitae cursus nisl. Vestibulum pellentesque cursus vulputate. Nam id facilisis neque. Aenean placerat arcu purus, ac ullamcorper velit facilisis in.</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sun, 31 Mar 2024 15:04:27 -0700</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis.</description>
     </item>
   </channel>
 </rss>
