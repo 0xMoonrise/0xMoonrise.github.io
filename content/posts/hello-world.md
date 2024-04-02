@@ -126,8 +126,9 @@ Etiam tincidunt vitae mauris eu semper. Fusce vestibulum elementum eros, blandit
 
 test
 
-<u>hello world</u>
-<u> this is underlined </u> 
+**hello world**
+
+__this is underlined__ 
 
 <i> this is italic </i> 
 
