@@ -13,14 +13,21 @@
 
 
   
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
 <script>
-  MathJax = {
-    tex: {
-      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
-      inlineMath: [['\\(', '\\)']]                  
-    }
-  };
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\[', right: '\\]', display: true},   
+        {left: '$$', right: '$$', display: true},     
+        {left: '\\(', right: '\\)', display: false},
+        {left: '$', right: '$', display: false}  
+      ],
+      throwOnError : false
+    });
+  });
 </script>
 
   
@@ -64,7 +71,7 @@
     <h2><a href="/posts/hello-world/">Hello World</a></h2>
     <p>
     
-    consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis. Donec at tortor sit amet odio varius dapibus vel quis justo. Nulla rutrum tempus massa, a blandit ante feugiat nec. Praesent a est a erat molestie iaculis sit amet et purus. In tristique laoreet laoreet. Phasellus aliquet libero vel commodo ultricies. Vestibulum porta neque eget arcu mollis vestibulum. (x^2) @x^2@ \$x^2\$ aasdasd
+    consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis. Donec at tortor sit amet odio varius dapibus vel quis justo. Nulla rutrum tempus massa, a blandit ante feugiat nec. Praesent a est a erat molestie iaculis sit amet et purus. In tristique laoreet laoreet. Phasellus aliquet libero vel commodo ultricies. Vestibulum porta neque eget arcu mollis vestibulum. (x^2) $x^2$ \$x^2\$ aasdasd
     <div class='tags'>
         <a href='/tags/xss'>Xss</a>, <a href='/tags/lfi'>Lfi</a>, <a href='/tags/rce'>Rce</a>, <a href='/tags/atopic'>Atopic</a></div>
 </p>

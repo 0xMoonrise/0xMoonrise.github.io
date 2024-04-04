@@ -46,6 +46,29 @@ hr{
   border-top: 1px #fff;
 }
 
+.katex{
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;  
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 /*---------------custom classes---------------*/
 
 .tags {
