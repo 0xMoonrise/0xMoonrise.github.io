@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis.</description>
     </item>
+    <item>
+      <title>How To Test</title>
+      <link>http://localhost:1313/posts/how-to-test/</link>
+      <pubDate>Sun, 31 Mar 2024 15:04:27 -0700</pubDate>
+      <guid>http://localhost:1313/posts/how-to-test/</guid>
+      <description>consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis.</description>
+    </item>
   </channel>
 </rss>

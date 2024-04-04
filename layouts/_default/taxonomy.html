@@ -1,14 +1,26 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
-    {{ $prev_char := "" }}
-    {{ range (sort .Pages "Title") }}
+    {{ if ne (index (split .RelPermalink "/") 1) "categories" }}
+        {{ $prev_char := "" }}
+        {{ range (sort .Pages "Title") }}
         {{ $current_char := substr .Title 0 1 }}
-        {{ if ne $prev_char $current_char }} 
-            <h2>{{ $current_char }}</h2>
+            {{ if ne $prev_char $current_char }} 
+                <h2>{{ $current_char }}</h2>
             {{ $prev_char = $current_char }}
+            {{ end }}
+            <div class='taxonomy'>
+                <h3><a href="{{ .RelPermalink}}">{{ .Title }}</a></h3>
+            </div>
         {{ end }}
-        <div class='taxonomy'>
-            <h3><a href="{{ .RelPermalink}}">{{ .Title }}</a></h3>
-        </div>
+    {{ else }}
+        {{ $cat := index (split .RelPermalink "/") 2 }}
+        {{ $cat = strings.Title ($cat | humanize) }}
+        {{ $p := where site.RegularPages "Type" "posts" }}
+        {{ $p = where $p "Params.categories" "intersect" (slice $cat ) }}
+        {{ range $p }}
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ $summary := index (split .Content "</p>") 0 }}
+            {{ $summary | plainify }}
+        {{ end }}
     {{ end }}
 {{ end }}

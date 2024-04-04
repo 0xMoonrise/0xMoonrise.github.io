@@ -3,6 +3,7 @@ title = 'Proof of Concept'
 date = 2024-04-02T11:12:30Z
 draft = true
 tags = ['Atopic', 'Atopic2', 'Atopic3', 'Btopic', 'Ctopic']
+categories = ['Hardware']
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius dapibus diam in aliquet. Fusce vel egestas leo. Ut sodales dignissim lectus, ac suscipit justo eleifend sit amet. Nullam dapibus imperdiet ante. Fusce mollis aliquam sem, consequat sollicitudin tellus suscipit at. Quisque quis sem mattis, ultricies dolor sit amet, vulputate lorem. Sed vitae cursus nisl. Vestibulum pellentesque cursus vulputate. Nam id facilisis neque. Aenean placerat arcu purus, ac ullamcorper velit facilisis in. Praesent ornare vel metus non venenatis. Maecenas nibh libero, commodo eget ante quis, auctor eleifend tellus.
 

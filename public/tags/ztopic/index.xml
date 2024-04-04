@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ztopic on Captain Jack Moonrise</title>
+    <link>http://localhost:1313/tags/ztopic/</link>
+    <description>Recent content in Ztopic on Captain Jack Moonrise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 02:20:03 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ztopic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Should Do This</title>
+      <link>http://localhost:1313/posts/why-i-should-do-this/</link>
+      <pubDate>Thu, 04 Apr 2024 02:20:03 -0700</pubDate>
+      <guid>http://localhost:1313/posts/why-i-should-do-this/</guid>
+      <description>This is a test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar dolor in lectus euismod varius. Cras rutrum interdum feugiat. Integer placerat blandit purus, at commodo magna porttitor at. Sed dapibus tincidunt nulla ac vestibulum. Duis velit leo, pellentesque quis tempor non, venenatis sit amet velit. Mauris et placerat metus, non vehicula sem. Nunc congue lacus eu eros dictum dapibus. Donec sed lacinia diam. Pellentesque ut molestie metus, ut dapibus sem.</description>
+    </item>
+  </channel>
+</rss>

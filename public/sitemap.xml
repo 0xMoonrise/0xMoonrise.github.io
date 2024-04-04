@@ -14,7 +14,13 @@
     <loc>http://localhost:1313/tags/btopic/</loc>
     <lastmod>2024-04-02T11:12:30+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-04-02T11:12:30+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/ctopic/</loc>
+    <lastmod>2024-04-02T11:12:30+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/hardware/</loc>
     <lastmod>2024-04-02T11:12:30+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/proof-of-concept/</loc>
@@ -26,10 +32,16 @@
     <loc>http://localhost:1313/posts/hello-world/</loc>
     <lastmod>2024-03-31T15:04:27-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/how-to-test/</loc>
+    <lastmod>2024-03-31T15:04:27-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/lfi/</loc>
     <lastmod>2024-03-31T15:04:27-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/rce/</loc>
+    <lastmod>2024-03-31T15:04:27-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/web-pentesting/</loc>
     <lastmod>2024-03-31T15:04:27-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/xss/</loc>
@@ -42,7 +54,5 @@
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

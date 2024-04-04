@@ -1,5 +1,5 @@
 +++
-title = 'Hello World'
+title = 'How To Test'
 date = 2024-03-31T15:04:27-07:00
 draft = false
 tags = ['xss', 'lfi', 'rce', 'Atopic']

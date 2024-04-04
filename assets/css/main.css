@@ -76,6 +76,7 @@ hr{
 }
 
 .taxonomy{
+  padding-left: 4em;
   display: inline-block;
 }
  /*https://webdraft.hu/fonts/classic-console/*/
@@ -95,6 +96,11 @@ hr{
 
 .menu-main{
   padding: 0px;
+}
+
+.menu-categories{
+  display: block;
+  padding-left: 4em;
 }
 
 .banner {

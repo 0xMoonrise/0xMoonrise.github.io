@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1Topic on Captain Jack Moonrise</title>
+    <link>http://localhost:1313/tags/1topic/</link>
+    <description>Recent content in 1Topic on Captain Jack Moonrise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 02:28:59 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/1topic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This Is Another Test</title>
+      <link>http://localhost:1313/posts/this-is-another-test/</link>
+      <pubDate>Thu, 04 Apr 2024 02:28:59 -0700</pubDate>
+      <guid>http://localhost:1313/posts/this-is-another-test/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>How To Test | Captain Jack Moonrise</title>
+
+    
+    <link href="/css/syntax.min.css" rel="stylesheet">
+
+    
+    <link href="/css/copy-code-button.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\[', right: '\\]', display: true},   
+        {left: '$$', right: '$$', display: true},     
+        {left: '\\(', right: '\\)', display: false},
+        {left: '$', right: '$', display: false}  
+      ],
+      throwOnError : false
+    });
+  });
+</script>
+
+  
+</head>
+<body>
+  <header>
+    <h1>Captain Jack Moonrise</h1>
+
+  <nav>
+    <ul class='menu-main'>
+    <li class='menu'>
+      <a href="/">Home</a>
+    </li>
+    <li class='menu'>
+      <a href="/about/">About</a>
+    </li>
+    <li class='menu'>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li class='menu'>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>How To Test</h1>
+
+  
+  
+  <time datetime="2024-03-31T15:04:27-07:00">March 31, 2024</time>
+
+  <p>consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis. Donec at tortor sit amet odio varius dapibus vel quis justo. Nulla rutrum tempus massa, a blandit ante feugiat nec. Praesent a est a erat molestie iaculis sit amet et purus. In tristique laoreet laoreet. Phasellus aliquet libero vel commodo ultricies. Vestibulum porta neque eget arcu mollis vestibulum. (x^2) $x^2$ \$x^2\$ aasdasd</p>
+<p><em>this is a test</em></p>
+<p>$$
+\begin{aligned}
+KL(\hat{y} || y) &amp;= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \
+JS(\hat{y} || y) &amp;= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}
+$$</p>
+<p>test</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Program to display the Fibonacci sequence up to n-th term</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">nterms</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;How many terms? &#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># first two terms</span>
+</span></span><span class="line"><span class="cl"><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># check if the number of terms is valid</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">nterms</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">   <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Please enter a positive integer&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># if there is only one term, return n1</span>
+</span></span><span class="line"><span class="cl"><span class="k">elif</span> <span class="n">nterms</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">   <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Fibonacci sequence upto&#34;</span><span class="p">,</span><span class="n">nterms</span><span class="p">,</span><span class="s2">&#34;:&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="nb">print</span><span class="p">(</span><span class="n">n1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># generate fibonacci sequence</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">   <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Fibonacci sequence:&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="n">nterms</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">       <span class="nb">print</span><span class="p">(</span><span class="n">n1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">       <span class="n">nth</span> <span class="o">=</span> <span class="n">n1</span> <span class="o">+</span> <span class="n">n2</span>
+</span></span><span class="line"><span class="cl">       <span class="c1"># update values</span>
+</span></span><span class="line"><span class="cl">       <span class="n">n1</span> <span class="o">=</span> <span class="n">n2</span>
+</span></span><span class="line"><span class="cl">       <span class="n">n2</span> <span class="o">=</span> <span class="n">nth</span>
+</span></span><span class="line"><span class="cl">       <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#This is a fkinc comment</span>
+</span></span></code></pre></div><p>This is oter text</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nb">echo</span> <span class="s2">&#34;hello world&#34;</span>
+</span></span></code></pre></div><p>this another text just for fcking fun</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-perl" data-lang="perl"><span class="line"><span class="cl"><span class="ch">#!/usr/local/bin/perl</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># composite series of images over a background image</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nv">$#ARGV</span> <span class="o">!=</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"> <span class="k">print</span> <span class="s">&#34;usage: compem bg.rgb inbase outbase startNum stopNum\n&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">exit</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$bg</span> <span class="o">=</span> <span class="nv">$ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$inbase</span> <span class="o">=</span> <span class="nv">$ARGV</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$outbase</span> <span class="o">=</span> <span class="nv">$ARGV</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$start</span> <span class="o">=</span> <span class="nv">$ARGV</span><span class="p">[</span><span class="mi">3</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$stop</span> <span class="o">=</span> <span class="nv">$ARGV</span><span class="p">[</span><span class="mi">4</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># for each image</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="nv">$i</span><span class="o">=</span><span class="nv">$start</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;=</span> <span class="nv">$stop</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># pad numbers</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$num</span> <span class="o">=</span> <span class="nv">$i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="nv">$i</span><span class="o">&lt;</span><span class="mi">10</span><span class="p">)</span> <span class="p">{</span> <span class="nv">$num</span> <span class="o">=</span> <span class="s">&#34;00$i&#34;</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">elsif</span><span class="p">(</span><span class="nv">$i</span><span class="o">&lt;</span><span class="mi">100</span><span class="p">)</span> <span class="p">{</span> <span class="nv">$num</span> <span class="o">=</span> <span class="s">&#34;0$i&#34;</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># call unix command &#34;over&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$cmd</span> <span class="o">=</span> <span class="s">&#34;over $bg $inbase.$num $outbase.$num 0 0&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">print</span> <span class="nv">$cmd</span><span class="o">.</span><span class="s">&#34;\n&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="nb">system</span><span class="p">(</span><span class="nv">$cmd</span><span class="p">))</span> <span class="p">{</span> <span class="k">print</span> <span class="s">&#34;over failed\n&#34;</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>this is a test about http</p>
+<p><strong>Request:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-http" data-lang="http"><span class="line"><span class="cl"><span class="nf">POST</span> <span class="nn">/Controllers/Handlers/SearchHandler.php</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</span></span><span class="line"><span class="cl"><span class="n">Host</span><span class="o">:</span> <span class="l">localhost:1337</span>
+</span></span><span class="line"><span class="cl"><span class="n">Content-Length</span><span class="o">:</span> <span class="l">56</span>
+</span></span><span class="line"><span class="cl"><span class="n">sec-ch-ua</span><span class="o">:</span> <span class="l">&#34;Not(A:Brand&#34;;v=&#34;24&#34;, &#34;Chromium&#34;;v=&#34;122&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Accept</span><span class="o">:</span> <span class="l">*/*</span>
+</span></span><span class="line"><span class="cl"><span class="n">Content-Type</span><span class="o">:</span> <span class="l">application/x-www-form-urlencoded; charset=UTF-8</span>
+</span></span><span class="line"><span class="cl"><span class="n">X-Requested-With</span><span class="o">:</span> <span class="l">XMLHttpRequest</span>
+</span></span><span class="line"><span class="cl"><span class="n">sec-ch-ua-mobile</span><span class="o">:</span> <span class="l">?0</span>
+</span></span><span class="line"><span class="cl"><span class="n">User-Agent</span><span class="o">:</span> <span class="l">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36</span>
+</span></span><span class="line"><span class="cl"><span class="n">sec-ch-ua-platform</span><span class="o">:</span> <span class="l">&#34;Linux&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Origin</span><span class="o">:</span> <span class="l">http://localhost:1337</span>
+</span></span><span class="line"><span class="cl"><span class="n">Sec-Fetch-Site</span><span class="o">:</span> <span class="l">same-origin</span>
+</span></span><span class="line"><span class="cl"><span class="n">Sec-Fetch-Mode</span><span class="o">:</span> <span class="l">cors</span>
+</span></span><span class="line"><span class="cl"><span class="n">Sec-Fetch-Dest</span><span class="o">:</span> <span class="l">empty</span>
+</span></span><span class="line"><span class="cl"><span class="n">Referer</span><span class="o">:</span> <span class="l">http://localhost:1337/</span>
+</span></span><span class="line"><span class="cl"><span class="n">Accept-Encoding</span><span class="o">:</span> <span class="l">gzip, deflate, br</span>
+</span></span><span class="line"><span class="cl"><span class="n">Accept-Language</span><span class="o">:</span> <span class="l">en-US,en;q=0.9</span>
+</span></span><span class="line"><span class="cl"><span class="n">Cookie</span><span class="o">:</span> <span class="l">language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; continueCode=1KbV5a7Q65yx3YJp1kNW4RKP9Xzjd58xAvOElgbLeqVmDBMn8roZw2alnjR9</span>
+</span></span><span class="line"><span class="cl"><span class="n">Connection</span><span class="o">:</span> <span class="l">close</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">search=%2527%2520or%25201%253D1%2520%252D%252D%2520%252D
+</span></span></code></pre></div><p>asd</p>
+<p>Etiam tincidunt vitae mauris eu semper. Fusce vestibulum elementum eros, blandit fermentum nisl commodo sed. Phasellus porttitor eleifend congue. In metus lectus, tincidunt non libero et, lacinia finibus enim. Pellentesque vulputate finibus sodales. Quisque ac eros tortor. Nulla a mollis diam. Vestibulum eget odio et quam dignissim rhoncus eget et ante. Morbi tellus elit, interdum ut ultricies a, iaculis nec nulla. In gravida eleifend mi non consequat. Aliquam vitae justo ut lectus ultrices fermentum sed at nibh. Sed congue, lacus quis iaculis rhoncus, nisl orci eleifend augue, eu porta leo quam ac nisi. Vivamus aliquam nulla ut ornare facilisis. Curabitur et nisl convallis, ornare sapien vel, fermentum orci.</p>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item
+<ol>
+<li>Indented item</li>
+<li>Indented item</li>
+</ol>
+</li>
+<li>Fourth item</li>
+</ol>
+<ul>
+<li>test
+<ul>
+<li>test2
+<ul>
+<li>test3
+<strong>hello world</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>this is underlined</strong></p>
+<p><!-- raw HTML omitted --> this is italic <!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> this is strong <!-- raw HTML omitted --></p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<h4 id="the-quarterly-results-look-great">The quarterly results look great!</h4>
+<ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p><em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+<hr>
+<p>this other</p>
+<p>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.</p>
+<p><a href="https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_%28novel%29">a novel</a></p>
+<p>heelo <del>world</del></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Num</th>
+<th>Header</th>
+<th>Header2</th>
+<th>Header3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>first</td>
+<td>1st</td>
+<td>One</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>second</td>
+<td>2nd</td>
+<td>Two</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>third</td>
+<td>3rd</td>
+<td>Three</td>
+</tr>
+</tbody>
+</table>
+
+
+  </main>
+  <footer>
+    
+
+<script src="/js/copy-code-button.min.js"></script>
+
+<p>41 BC CE 86 FE A4 7B 2D 0A 57 9F 55 AF DD 6C D7 05 21 62 41 B7 67 17 76</p>
+
+  </footer>
+</body>
+</html>
