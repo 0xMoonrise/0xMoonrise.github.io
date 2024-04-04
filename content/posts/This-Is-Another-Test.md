@@ -1,7 +1,7 @@
 +++
 title = 'This Is Another Test'
 date = 2024-04-04T02:28:59-07:00
-draft = true
+draft = false
 tags = ['1Topic']
 categories = ['Exploits']
 +++

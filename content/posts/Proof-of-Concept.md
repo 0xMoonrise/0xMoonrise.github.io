@@ -1,7 +1,7 @@
 +++
 title = 'Proof of Concept'
 date = 2024-04-02T11:12:30Z
-draft = true
+draft = false
 tags = ['Atopic', 'Atopic2', 'Atopic3', 'Btopic', 'Ctopic']
 categories = ['Hardware']
 +++

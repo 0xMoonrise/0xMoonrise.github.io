@@ -1,7 +1,7 @@
 +++
 title = 'Why I Should Do This'
 date = 2024-04-04T02:20:03-07:00
-draft = true
+draft = false
 tags = ['Ztopic']
 categories = ['Hardware']
 +++
