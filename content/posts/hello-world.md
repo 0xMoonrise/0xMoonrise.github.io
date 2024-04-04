@@ -4,9 +4,18 @@ date = 2024-03-31T15:04:27-07:00
 draft = false
 tags = ['xss', 'lfi', 'rce', 'Atopic']
 +++
-consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis. Donec at tortor sit amet odio varius dapibus vel quis justo. Nulla rutrum tempus massa, a blandit ante feugiat nec. Praesent a est a erat molestie iaculis sit amet et purus. In tristique laoreet laoreet. Phasellus aliquet libero vel commodo ultricies. Vestibulum porta neque eget arcu mollis vestibulum. 
+consectetur adipiscing elit. Praesent metus diam, vulputate quis vulputate at, semper id libero. Aliquam imperdiet venenatis mauris, id porttitor nisi mollis nec. Proin ut ullamcorper urna, sit amet pellentesque ex. Aenean vitae luctus nibh, in tincidunt tortor. Aliquam erat volutpat. Mauris sit amet aliquet mi, in lacinia metus. Suspendisse scelerisque consequat malesuada. Aenean porta mi ac ipsum pharetra, ac maximus massa pretium. In consequat sit amet mauris vitae sollicitudin. Fusce imperdiet vel neque pulvinar mollis. Donec at tortor sit amet odio varius dapibus vel quis justo. Nulla rutrum tempus massa, a blandit ante feugiat nec. Praesent a est a erat molestie iaculis sit amet et purus. In tristique laoreet laoreet. Phasellus aliquet libero vel commodo ultricies. Vestibulum porta neque eget arcu mollis vestibulum. \(x^2\) $x^2$ \\$x^2\\$ aasdasd
+
+
 
 _this is a test_
+
+$$
+\begin{aligned}
+KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
+JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}
+$$
 
 test
 
