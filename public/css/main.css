@@ -75,7 +75,8 @@ hr{
   font-family: myFirstFont;
   text-align: center;
   font-size: 10px;
-  line-height: 1;
+  line-height: 0.9;
+  font-size: 0.6vw;
 }
 
 /*---------------code block css---------------*/
