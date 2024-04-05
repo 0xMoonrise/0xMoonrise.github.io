@@ -1,9 +1,9 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1>Categories</h1>
     {{ range $key, $value := .Site.Taxonomies.categories }}
         <li class='menu-categories'>
             <h2>
-            <a href='{{ "/categories/" | relLangURL }}{{ $key | urlize }}'>{{ strings.Title ($key | humanize) }}</a>
+            <a href='{{ "/categories/" | relLangURL }}{{ $key | urlize }}'> > {{ strings.Title ($key | humanize) }}</a>
             </h2>
         </li>
     {{ end }}

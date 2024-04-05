@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/1topic/</loc>
+    <lastmod>2024-04-04T02:28:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-04-04T02:28:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/exploits/</loc>
+    <lastmod>2024-04-04T02:28:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-04T02:28:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/this-is-another-test/</loc>
+    <lastmod>2024-04-04T02:28:59-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/hardware/</loc>
+    <lastmod>2024-04-04T02:20:03-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/why-i-should-do-this/</loc>
+    <lastmod>2024-04-04T02:20:03-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ztopic/</loc>
+    <lastmod>2024-04-04T02:20:03-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/atopic/</loc>
     <lastmod>2024-04-02T11:12:30+00:00</lastmod>
   </url><url>
@@ -14,19 +38,10 @@
     <loc>http://localhost:1313/tags/btopic/</loc>
     <lastmod>2024-04-02T11:12:30+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-02T11:12:30+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/ctopic/</loc>
     <lastmod>2024-04-02T11:12:30+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/hardware/</loc>
-    <lastmod>2024-04-02T11:12:30+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/proof-of-concept/</loc>
-    <lastmod>2024-04-02T11:12:30+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-02T11:12:30+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/hello-world/</loc>
