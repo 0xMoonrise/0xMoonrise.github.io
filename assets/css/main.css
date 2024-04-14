@@ -82,7 +82,7 @@ hr{
  /*https://webdraft.hu/fonts/classic-console/*/
  @font-face {
   font-family: myFirstFont;
-  src: url(../fonts/clacon2.woff2) format('woff2');
+  src: url(/fonts/clacon2.woff2) format('woff2');
   font-weight: normal;
   font-style: normal;
 }

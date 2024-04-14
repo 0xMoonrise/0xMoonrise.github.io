@@ -1,9 +1,9 @@
 version: '3'
 services:
-  hugo_server:
+  hugo_server:    
     image: jakejarvis/hugo-extended:latest
     ports:
       - "1313:1313"
     volumes:
       - "${PWD}:/src"
-    command: ["server", "--buildDrafts", "--bind", "0.0.0.0"]
+    command: ["server", "--buildDrafts", "--bind", "${BIND}"]
