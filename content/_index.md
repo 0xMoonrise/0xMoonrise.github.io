@@ -5,6 +5,4 @@ draft = false
 test = 'b'
 +++
 
-Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
-pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
-excepteur excepteur pariatur nostrud qui irure ullamco.
+This is a cybersecurity-focused blog, where you can find content on various topics that I believe might be of interest. You can browse the posts section to see the different categories.

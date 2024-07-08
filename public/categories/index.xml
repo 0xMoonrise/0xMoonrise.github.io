@@ -6,28 +6,6 @@
     <description>Recent content in Categories on Captain Jack Moonrise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2024 02:28:59 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Exploits</title>
-      <link>http://localhost:1313/categories/exploits/</link>
-      <pubDate>Thu, 04 Apr 2024 02:28:59 -0700</pubDate>
-      <guid>http://localhost:1313/categories/exploits/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware</title>
-      <link>http://localhost:1313/categories/hardware/</link>
-      <pubDate>Thu, 04 Apr 2024 02:20:03 -0700</pubDate>
-      <guid>http://localhost:1313/categories/hardware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Pentesting</title>
-      <link>http://localhost:1313/categories/web-pentesting/</link>
-      <pubDate>Sun, 31 Mar 2024 15:04:27 -0700</pubDate>
-      <guid>http://localhost:1313/categories/web-pentesting/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
