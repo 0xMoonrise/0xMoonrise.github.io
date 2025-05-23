@@ -1,1 +1,1 @@
-python3 src/main.py "/0xMoonrise/"
+python3 src/main.py "/StaticSite/"
